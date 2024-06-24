@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script
+      src="https://kit.fontawesome.com/dabff537d3.js"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      header {
+        background-color: green;
+        padding: 10px 0px;
+        color: white;
+      }
+      ul {
+        list-style: none;
+      }
+      ul li {
+        display: inline-block;
+        margin-right: 50px;
+        position: relative;
+      }
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+      .hovercontent li {
+        display: block;
+        margin-right: 0px;
+        padding-bottom: 10px;
+      }
+      .hovercontent {
+        padding: 10px !important;
+        background-color: greenyellow;
+        position: absolute;
+        left: 0px;
+        top: 100%;
+        display: none;
+      }
+      .hovercontent ul {
+        padding: 10px !important;
+        background-color: red;
+        position: absolute;
+        left: 100%;
+        top: 0px;
+        display: none;
+      }
+      .hovercontent  li:hover ul{
+        display: block !important;
+      }
+
+      ul li:hover .hovercontent {
+        display: block;
+      }
+
+    </style>
+  </head>
+  <body>
+    <header>
+      <ul>
+        <li>
+          <a href="">HOME <i class="fa-solid fa-plus"></i> </a>
+          <ul class="hovercontent">
+            <li><a href="">List 1</a></li>
+            <li><a href="">List 1</a></li>
+            <li><a href="">List 1</a></li>
+            <li><a href="">List 1</a></li>
+            <li><a href="">List 1</a></li>
+            <li><a href="">List 1</a></li>
+          </ul>
+        </li>
+        <li><a href=""> ABOUT US </a></li>
+        <li><a href=""> DESTINATION </a></li>
+        <li>
+          <a href=""> TOUR </a>
+          <ul class="hovercontent">
+            <li>
+              <a href="">Outbond Tour</a>
+      <ul>
+        <li><a href="">China</a></li>
+        <li><a href="">India</a></li>
+      </ul>
+            </li>
+            <li><a href="">Inbond Tour</a></li>
+          </ul>
+        </li>
+        <li><a href=""> BLOG </a></li>
+        <li><a href=""> PAGES </a></li>
+        <li><a href=""> FAQ </a></li>
+        <li><a href=""> CONTACT US </a></li>
+      </ul>
+    </header>
+  </body>
+</html>

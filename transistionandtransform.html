@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .card {
+        height: 500px;
+        width: 500px;
+        border: 1px solid red;
+        position: relative;
+      }
+      .card:hover .innercard {
+        height: 100%;
+        width: 100%;
+      }
+      .innercard{
+        height: 0px;
+        width: 0px;
+        background-color: red;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        transition: all 0.5s;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="card">
+        <div class="innercard"></div>
+    </div>
+  </body>
+</html>

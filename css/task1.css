@@ -1,0 +1,21 @@
+table{
+    background-color: #6B5ACD;
+    margin: 0px auto;
+    width: 600px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+label{
+    text-transform: uppercase;
+    color: white;
+}
+
+input{
+    height: 40px;
+}
+span{
+    color: white;
+}

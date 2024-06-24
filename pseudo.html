@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      ul li:hover {
+        color: red;
+      }
+      /* 
+    ul li:first-child{
+        color: yellow;
+    }
+
+    ul li:last-child{
+        color: green;
+    } */
+
+      /* 
+    ul li:nth-child(2){
+        color: green;
+    }
+    ul li:nth-last-child(2){
+        color: red;
+    } */
+
+      ul li::marker {
+        color: red;
+      }
+
+      ul li::before {
+        content: "";
+        color: red;
+        background-color: blue;
+      }
+
+      ul li::after {
+        content: "..... ";
+      }
+      p::first-letter{
+        color: red;
+        font-size: 40px;
+      }
+      p::first-line{
+        color: green;
+      }
+      p::selection{
+        background-color: green;
+        color: white;
+      }
+    </style>
+  </head>
+  <body>
+    <!-- pseudo class 
+     pseudo elemnts -->
+
+    <ul>
+      <li>apple</li>
+      <li>Banana</li>
+      <li>apple</li>
+      <li>Mango</li>
+      <li>apple</li>
+      <li>potato</li>
+      <li>xyz</li>
+      <li>apple</li>
+    </ul>
+
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi odit
+      reprehenderit mollitia voluptatum commodi hic itaque amet, perferendis
+      fugit suscipit repellat ipsa autem voluptates similique reiciendis
+      accusamus laudantium impedit ipsum! Sapiente voluptatum error quis sunt?
+      Architecto modi nulla culpa rerum ad dolore saepe cumque. Iste quia
+      distinctio eligendi ad doloribus? Voluptatem est quam dignissimos fuga
+      veniam consequatur? Provident doloribus fugiat eum necessitatibus dolorum
+      maiores autem molestiae id, sequi corrupti at ratione similique aperiam
+      quae magnam nisi facere eligendi dolorem ipsam numquam harum ea error
+      aspernatur. Repudiandae perferendis blanditiis quaerat itaque. Cumque
+      excepturi aliquam, nesciunt rerum, odit esse aliquid vero, repellat magni
+      deleniti accusantium illum tempore eum fugiat. Dolores nisi voluptas
+      consequuntur exercitationem corrupti, architecto iure eos dolor nostrum,
+      voluptatem incidunt quos vitae adipisci excepturi perferendis sint illo
+      dolore maiores fugit expedita provident. Nobis, quo nostrum non magnam
+      voluptas, deserunt earum ratione expedita eum incidunt reiciendis
+      cupiditate corrupti inventore minima cum aliquam dolores ipsum animi nam
+      soluta aut, architecto cumque fugiat. Vero quasi labore quam
+      necessitatibus illo aliquid reprehenderit voluptatem blanditiis nisi,
+      rerum amet voluptate eaque harum. Excepturi natus iste quibusdam possimus.
+      Quidem vitae vero dignissimos ipsam delectus tempora at, harum deleniti
+      sed cumque sint nulla quis qui tempore id dicta?
+    </p>
+  </body>
+</html>

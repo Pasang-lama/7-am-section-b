@@ -1,0 +1,16 @@
+.box {
+  height: 500px;
+  width: 500px;
+  background-color: green;
+  padding: 50px;
+  border-top: 5px solid red;
+  border-radius: 50px;
+ margin: 0px auto;
+}
+.box p {
+  font-size: 20px;
+  color: white;
+  text-align: justify;
+  line-height: 30px;
+  letter-spacing: 2px;
+}

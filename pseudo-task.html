@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .card{
+            position: relative;
+            height: 300px;
+            aspect-ratio: 2/1;
+        }
+        .card::after{
+            content: "";
+            height: 100%;
+            width: 100%;
+            background-color: rgba(0, 0, 0, 0.397);
+            position: absolute;
+            top: 0px;
+            left: 0px;
+        }
+        .card figure{
+            height: 100%;
+            width:  100%;
+            background-color: red;
+            margin: 0px;
+            padding: 0px;
+        }
+        img{
+            height: 100%;
+            width:  100%;
+            object-fit: cover;
+        }
+        .card-details{
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            color: white;
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <figure>
+            <img src="https://turio-wp.b-cdn.net/wp-content/uploads/2022/07/Destination-Image-10-1.jpg" alt="">
+        </figure>
+        <div class="card-details">
+            <h3>Helambu Tour</h3>
+        </div>
+    </div>
+</body>
+</html>
